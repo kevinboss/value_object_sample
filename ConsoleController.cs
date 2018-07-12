@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Optional.Unsafe;
+using value_object_sample.Entities.ValueObjects;
 
 namespace value_object_sample
 {
@@ -15,15 +16,26 @@ namespace value_object_sample
             Console.WriteLine("Phone number:");
             var phone = Console.ReadLine();
 
-            try
+            var nameValidationResult = Name.IsValid(name);
+            if (!nameValidationResult.IsValid)
             {
-                _customerService.AddCustomer(name, phone);
-                Console.WriteLine("Customer successfully added");
+                foreach (var error in nameValidationResult.Errors)
+                {
+                    Console.WriteLine(error);
+                }
             }
-            catch (Exception ex)
+
+            var phoneNumberValidationResult = PhoneNumber.IsValid(phone);
+            if (!phoneNumberValidationResult.IsValid)
             {
-                Console.WriteLine(ex.Message);
+                foreach (var error in phoneNumberValidationResult.Errors)
+                {
+                    Console.WriteLine(error);
+                }
             }
+
+            _customerService.AddCustomer(Name.Create(name), PhoneNumber.Create(phone));
+            Console.WriteLine("Customer successfully added");
         }
 
         public void SearchForRepresentativeAction()
