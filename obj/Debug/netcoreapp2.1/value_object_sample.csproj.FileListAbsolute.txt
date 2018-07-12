@@ -1,0 +1,11 @@
+C:\Users\kevin\Repos\value_object_sample\value_object_sample\bin\Debug\netcoreapp2.1\value_object_sample.deps.json
+C:\Users\kevin\Repos\value_object_sample\value_object_sample\bin\Debug\netcoreapp2.1\value_object_sample.runtimeconfig.json
+C:\Users\kevin\Repos\value_object_sample\value_object_sample\bin\Debug\netcoreapp2.1\value_object_sample.runtimeconfig.dev.json
+C:\Users\kevin\Repos\value_object_sample\value_object_sample\bin\Debug\netcoreapp2.1\value_object_sample.dll
+C:\Users\kevin\Repos\value_object_sample\value_object_sample\bin\Debug\netcoreapp2.1\value_object_sample.pdb
+C:\Users\kevin\Repos\value_object_sample\value_object_sample\obj\Debug\netcoreapp2.1\value_object_sample.csprojAssemblyReference.cache
+C:\Users\kevin\Repos\value_object_sample\value_object_sample\obj\Debug\netcoreapp2.1\value_object_sample.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Repos\value_object_sample\value_object_sample\obj\Debug\netcoreapp2.1\value_object_sample.AssemblyInfoInputs.cache
+C:\Users\kevin\Repos\value_object_sample\value_object_sample\obj\Debug\netcoreapp2.1\value_object_sample.AssemblyInfo.cs
+C:\Users\kevin\Repos\value_object_sample\value_object_sample\obj\Debug\netcoreapp2.1\value_object_sample.dll
+C:\Users\kevin\Repos\value_object_sample\value_object_sample\obj\Debug\netcoreapp2.1\value_object_sample.pdb
