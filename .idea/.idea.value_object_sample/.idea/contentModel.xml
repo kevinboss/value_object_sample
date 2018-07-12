@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\kevin\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_value_object_sample.-899129.00" t="ExcludeRecursive" />
+    <e p="C:\Users\kevin\Repos\value_object_sample" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ConsoleController.cs" t="Include" />
+      <e p="CustomerService.cs" t="Include" />
+      <e p="Entities" t="Include">
+        <e p="Customer.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.1" t="Include">
+            <e p="value_object_sample.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="README.md" t="Include" />
+      <e p="value_object_sample.csproj" t="IncludeRecursive" />
+      <e p="value_object_sample.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
